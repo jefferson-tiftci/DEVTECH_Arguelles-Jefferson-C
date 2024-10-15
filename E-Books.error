@@ -20,9 +20,4 @@ class Ebook extends Book {
     }
 }
 [
-    new Ebook("The Attachment Style", "Ria Martez", 2024, 300.9),
-    new Ebook("Harry Potter", "JK Rowling", 1900, 19.08),
-    new Ebook("BOOK3", "Author 2", 1988, 25.33),
-    new Ebook("MessUp", "Author 1", 2024, 19.99)
-
 ].forEach(ebook => ebook.displayDetails());
