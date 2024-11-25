@@ -1,0 +1,48 @@
+SEATWORK 2
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Examples</title>
+    <style>
+    
+        .hidden {
+            display: none; /* Hides the element */
+        }
+        .block {
+            display: block; /* Takes full width and starts on a new line */
+            background-color: lightblue;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        .inline {
+            display: inline; /* Only takes the width of its content */
+            background-color: lightgreen;
+            margin: 5px;
+            padding: 5px;
+        }
+        .inline-block {
+            display: inline-block; /* Takes width and height, sits inline with others */
+            background-color: lightcoral;
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hidden">This text is hidden.</div>
+    
+    <div class="block">I am a block element.</div>
+    
+    <span class="inline">I am an inline element.</span>
+    <span class="inline">I am another inline element.</span>
+    
+    <div class="inline-block">Inline Block 1</div>
+    <div class="inline-block">Inline Block 2</div>
+
+</body>
+</html>
